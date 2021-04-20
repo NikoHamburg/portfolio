@@ -12,6 +12,11 @@
 ### NPM Packages:
 
 react-router-dom
+gh-pages
+
+## Web deploy:
+
+ https://nikohamburg.github.io/portfolio/
 
 ### Structure
 
