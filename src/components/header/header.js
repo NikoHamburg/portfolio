@@ -3,7 +3,7 @@ import './header.css';
 function Header() {
   return (
     <div className="header">
-      <h1>niko</h1>
+      <h1>header</h1>
     </div>
   );
 }
