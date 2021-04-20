@@ -1,3 +1,9 @@
 .main {
     border: solid 1px blue;
+    /*
+    min-height: 100vh;
+    background-image: url('../../assets/images/background.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    */
 }
