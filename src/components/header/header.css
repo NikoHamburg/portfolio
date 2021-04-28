@@ -1,16 +1,36 @@
 .header {
+    height: 10vh;
+    background-color: #282828;
+    font-size: 2vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header ul {
     display: flex;
+    background-color: #282828;
+    text-transform: uppercase;
+    padding-top: 6vh;
+}
+
+.title {
+    padding-top: 6vh;
+    margin-left: 2vh;
+    color: rgba(0,157,166,1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    text-shadow: 3px 3px #071514;
 }
 
 .nav--link {
-    font-weight: bold;
-    margin: 5px;
+    margin: 1vh;
+    color: rgba(0,157,166,1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
+    text-shadow: 3px 3px #071514;
 }
 
 .nav--link:hover {
-    color: green;
+    color: #43c2c0;
 }
