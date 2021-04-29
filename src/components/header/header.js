@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
+    <>
     <nav className="header">
       <div className="title">nikoHamburg</div>
       <ul>
@@ -28,6 +29,8 @@ function Header() {
         </li>
       </ul>
     </nav>
+    <div className="border-gradient"></div>
+    </>
   );
 }
 

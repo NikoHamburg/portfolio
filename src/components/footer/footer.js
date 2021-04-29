@@ -1,10 +1,13 @@
-import './footer.css';
+import "./footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
-      <h1>footer</h1>
-    </div>
+    <>
+      <div className="border-gradient"></div>
+      <div className="footer">
+        <h1>footer</h1>
+      </div>
+    </>
   );
 }
 

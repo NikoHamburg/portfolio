@@ -14,7 +14,7 @@ function App() {
     <Router>
     <div>
       <Header />
-
+      <div className="app">
       <Switch>
         <Route path='/about'>
           <About />
@@ -29,7 +29,7 @@ function App() {
           <Main />
         </Route>
       </Switch>
-      
+      </div>      
       <Footer />
     </div>
     </Router>
