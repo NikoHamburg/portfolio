@@ -20,7 +20,7 @@ code {
 .border-gradient {
   height: 1px;
   animation-name: border-animation;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
