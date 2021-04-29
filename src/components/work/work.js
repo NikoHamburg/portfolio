@@ -2,9 +2,14 @@ import './work.css';
 
 function Work() {
   return (
-    <div className="work">
+    <>
+    <div className="border-gradient"></div>
+      <div className="work">
+      
       <h1>work</h1>
-    </div>
+      </div>
+    <div className="border-gradient"></div>
+    </>
   );
 }
 

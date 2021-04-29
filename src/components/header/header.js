@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <nav className="header">
-      <div className="title">Nikolas Trettin</div>
+      <div className="title">nikoHamburg</div>
       <ul>
         <li>
           <Link className="nav--link" to="/">

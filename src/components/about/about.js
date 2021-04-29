@@ -2,9 +2,14 @@ import './about.css';
 
 function About() {
   return (
-    <div className="about">
+    <>
+    <div className="border-gradient"></div>
+      <div className="about">
+      
       <h1>about</h1>
-    </div>
+      </div>
+    <div className="border-gradient"></div>
+    </>
   );
 }
 

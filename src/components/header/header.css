@@ -1,10 +1,13 @@
 .header {
-    height: 10vh;
+    height: 9.2vh;
     background-color: #282828;
     font-size: 2vh;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
+    border: 3px solid #555555;
+    border-style: ridge;
+    border-bottom: 0px;
 }
 
 .header ul {
@@ -17,7 +20,7 @@
 .title {
     padding-top: 6vh;
     margin-left: 2vh;
-    color: rgba(0,157,166,1);
+    color: rgb(30, 113, 118);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3vh;
     text-shadow: 3px 3px #071514;
@@ -25,7 +28,7 @@
 
 .nav--link {
     margin: 1vh;
-    color: rgba(0,157,166,1);
+    color: rgb(30, 113, 118);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     text-shadow: 3px 3px #071514;
@@ -33,4 +36,12 @@
 
 .nav--link:hover {
     color: #43c2c0;
+}
+
+@media screen and (max-width: 330px) {
+    .header ul {
+        padding-top: 0vh;
+        text-align: right;
+        display: inline;
+    }    
 }
