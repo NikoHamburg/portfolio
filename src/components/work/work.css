@@ -18,11 +18,11 @@
 }
 
 .projects h1 {
-  font-weight: bolder;
-  font-size: 2vh;
-  color: rgb(53, 192, 216);
-  padding-top: 1.5vh;
-  text-shadow: 0.3vh 0.3vh black;
+    font-weight: bolder;
+    font-size: 2vh;
+    color: rgb(53, 192, 216);
+    padding-top: 1.5vh;
+    text-shadow: 0.3vh 0.3vh black;
 }
 
 .content {
@@ -46,7 +46,7 @@
   padding: 2vh 0 2vh 0;
 }
 
-.nav-projects ul li a {
+.nav-projects ul a {
   font-weight: bolder;
   font-size: 1.5vh;
   color: rgb(53, 192, 216);
@@ -66,7 +66,7 @@
 }
 
 .nav-projects ul li:active {
-  border: 2px solid red;
+  border: 2px solid rgb(53, 192, 216);
   border-style: groove;
   -webkit-box-shadow: 4px 4px 0px 2px #000000;
   box-shadow: 4px 4px 0px 2px #000000;
