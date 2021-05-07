@@ -5,7 +5,6 @@ function Footer() {
     <>
       <div className="border-gradient"></div>
       <div className="footer">
-        <h1>footer</h1>
       </div>
     </>
   );
