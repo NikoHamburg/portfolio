@@ -1,8 +1,130 @@
 .app {
   display: flex;
-  min-height: 80vh;
+  flex-direction: row;
   border: 3px solid #555555;
   border-style: ridge;
   border-top: 0px;
   border-bottom: 0px;
+  height: 76.8vh;
+}
+
+
+.border-gradient {
+  height: 1px;
+  animation-name: border-animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes border-animation {    
+  0%     {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 0%, rgba(0,157,166,1))}
+  5%     {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 5%, rgba(0,157,166,1));}
+  10%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 10%, rgba(0,157,166,1));}
+  15%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 15%, rgba(0,157,166,1));}
+  20%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 20%, rgba(0,157,166,1));}
+  25%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 25%, rgba(0,157,166,1));}
+  30%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 30%, rgba(0,157,166,1));}
+  35%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 35%, rgba(0,157,166,1));}
+  40%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 40%, rgba(0,157,166,1));}
+  45%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 45%, rgba(0,157,166,1));}
+  50%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 50%, rgba(0,157,166,1));}
+  55%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 55%, rgba(0,157,166,1));}
+  60%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 60%, rgba(0,157,166,1));}
+  65%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 65%, rgba(0,157,166,1));}
+  70%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 70%, rgba(0,157,166,1));}
+  75%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 75%, rgba(0,157,166,1));}
+  80%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 80%, rgba(0,157,166,1));}
+  85%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 85%, rgba(0,157,166,1));}
+  90%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 90%, rgba(0,157,166,1));}
+  95%    {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 95%, rgba(0,157,166,1));}
+  100%   {background-image: linear-gradient(90deg, rgba(0,157,166,1), rgba(128,201,255,1) 100%, rgba(0,157,166,1));}
+}
+
+.inhalt {
+  width: 100%;
+}
+
+aside {
+  display: flex;
+  width: 24px;
+  height: 100%;
+}
+
+.menu {
+  background-color: rgba(20, 120, 200, 0.15);
+  height: 400px;
+  width: 124px;
+  margin-top: 10vh;
+  position: fixed;
+  left: -100px;
+  box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 1);
+  border: 2px solid grey;
+  border-style: ridge;
+  border-radius: 2ch;
+  transition: width 1s;
+  background-image: url("../src/assets/images/aluminium-test2.png");
+  background-size: 8ch;
+}
+
+.menu:hover {
+  width: 340px;
+  transition: width 100ms;
+}
+
+.menu:hover .wrapper {
+  transform: translateX(41%);
+  transition: all 200ms;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  padding: 0 0 0 0;
+  transform: translateX(-800%);
+  transition: transform 4s;
+}
+
+.wrapper ul {
+  list-style: none;
+}
+
+.wrapper ul li {
+  margin: 16px;
+  padding: 16px 16px 16px 16px;
+  box-shadow: inset 0 0 24px 1px rgba(255, 255, 255, 0.6),
+    inset 0 0 24px 12px rgba(255, 255, 255, 0.4);
+  border-radius: 2ch;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(255, 255, 255, 0.8) 70%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.wrapper ul li:hover {
+  box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 1),
+    inset 0 0 24px 12px rgba(255, 255, 255, 1);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(255, 255, 255, 0.6) 70%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+
+.wrapper ul a {
+  text-decoration: none;
+}
+
+.wrapper ul a:visited {
+  color: black;
 }

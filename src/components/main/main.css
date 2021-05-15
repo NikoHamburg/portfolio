@@ -1,6 +1,5 @@
 .main {
   width: 100%;
-  -webkit-box-shadow: inset 2px 2px 21px 4px rgba(8, 0, 0, 0.6);
   box-shadow: inset 2px 2px 21px 4px rgba(0, 0, 0, 0.6);
   display: flex;
   background-image: url("../../assets/images/hamburg3.png");

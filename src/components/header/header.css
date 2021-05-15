@@ -7,7 +7,6 @@
   border: 3px solid #555555;
   border-style: ridge;
   border-bottom: 0px;
-  -webkit-box-shadow: inset 2px 2px 21px 4px rgba(0, 0, 0, 0.6);
   box-shadow: inset 2px 2px 21px 4px rgba(0, 0, 0, 0.6);
 }
 
@@ -24,24 +23,4 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3vh;
   text-shadow: 3px 3px #071514;
-}
-
-.nav--link {
-  margin: 1vh;
-  color: rgb(30, 113, 118);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: none;
-  text-shadow: 3px 3px #071514;
-}
-
-.nav--link:hover {
-  color: #43c2c0;
-}
-
-@media screen and (max-width: 600px) {
-  .header ul {
-    padding: 1vh 0 0 0;
-    text-align: right;
-    display: inline;
-  }
 }

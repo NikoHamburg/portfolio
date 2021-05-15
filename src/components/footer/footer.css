@@ -3,6 +3,5 @@
   border: 3px solid #555555;
   border-style: ridge;
   border-top: 0px;
-  -webkit-box-shadow: inset 2px 2px 21px 4px rgba(0, 0, 0, 0.6);
   box-shadow: inset 2px 2px 21px 4px rgba(0, 0, 0, 0.6);
 }
