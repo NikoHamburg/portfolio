@@ -19,35 +19,24 @@ function App() {
           <div className="menu">
             <div className="wrapper">
               <ul>
-                <li>
-                  <Link className="nav--link" to="/">
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link className="nav--link" to="/about">
-                    Information
-                  </Link>
-                </li>
-                <li>
-                  <Link className="nav--link" to="/work">
-                    Work
-                  </Link>
-                </li>
-                <li>
-                  <Link className="nav--link" to="/contact">
-                    Contact
-                  </Link>
-                </li>
+                <Link className="nav--link" to="/">
+                  <li>Home</li>
+                </Link>
+                <Link className="nav--link" to="/about">
+                  <li>Information</li>
+                </Link>
+                <Link className="nav--link" to="/work">
+                  <li>Work</li>
+                </Link>
+                <Link className="nav--link" to="/contact">
+                  <li>Contact</li>
+                </Link>
               </ul>
             </div>
           </div>
         </aside>
         <div className="inhalt">
           <Switch>
-            <Route path="/">
-              <Main />
-            </Route>
             <Route path="/about">
               <About />
             </Route>
@@ -56,6 +45,9 @@ function App() {
             </Route>
             <Route path="/contact">
               <Contact />
+            </Route>
+            <Route path="/">
+              <Main />
             </Route>
           </Switch>
         </div>

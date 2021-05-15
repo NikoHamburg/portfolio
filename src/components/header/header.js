@@ -20,7 +20,6 @@ function Header() {
         </li>
       </ul>
     </nav>
-    <div className="border-gradient"></div>
     </>
   );
 }

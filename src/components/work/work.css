@@ -2,10 +2,11 @@
   width: 100%;
   box-shadow: inset 2px 2px 21px 4px rgba(0, 0, 0, 0.6);
   display: flex;
+  height: 79vh;
 }
 
 .projects {
-  margin: 4vh 1vh 4vh 2vh;
+  margin: 4vh 1vh 4vh 4vh;
   padding-top: 3vh;
   width: 15vw;
   min-width: 110px;

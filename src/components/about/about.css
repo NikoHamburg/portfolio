@@ -1,5 +1,5 @@
 .about {
     width: 100%;
-    -webkit-box-shadow: inset 2px 2px 21px 4px rgba(8, 0, 0, 0.6);
+    min-height: 79vh;
     box-shadow: inset 2px 2px 21px 4px rgba(0, 0, 0, 0.6);
 }
