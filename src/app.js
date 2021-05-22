@@ -16,8 +16,8 @@ function App() {
       <Header />
       <div className="app">
         <aside>
-          <div className="menu">
-            <div className="wrapper">
+        <div className="menu">
+          <div className="wrapper">
               <ul>
                 <Link className="nav--link" to="/">
                   <li>Home</li>

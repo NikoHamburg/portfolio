@@ -1,5 +1,88 @@
 .about {
-    width: 100%;
-    min-height: 79vh;
-    box-shadow: inset 2px 2px 21px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 2px 2px 21px 4px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/images/hamburg3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 80vh;
+}
+
+.niko {
+  background-image: url("../../assets/images/niko2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(167, 164, 164);
+  border-radius: 2ch;
+  max-width: 164px;
+  min-width: 164px;
+  min-height: 214px;
+  max-height: 214px;
+  -webkit-box-shadow: 8px 8px 0px 2px #000000;
+  box-shadow: 8px 8px 0px 2px #000000;
+  border: 4px solid #555555;
+  border-style: groove;
+  margin: 20px;
+}
+
+.skooma {
+  background-image: url("../../assets/images/skoomi2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(167, 164, 164);
+  border-radius: 2ch;
+  max-width: 164px;
+  min-width: 164px;
+  min-height: 170px;
+  max-height: 214px;
+  -webkit-box-shadow: 8px 8px 0px 2px #000000;
+  box-shadow: 8px 8px 0px 2px #000000;
+  border: 4px solid #555555;
+  border-style: groove;
+  margin: 20px;
+}
+
+.rechts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  padding: 40px;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  -webkit-box-shadow: 8px 8px 0px 2px #000000;
+  box-shadow: 8px 8px 0px 2px #000000;
+  border: 2px solid #555555;
+  border-style: groove;
+  color: white;
+}
+
+.text {
+  max-width: 164px;
+}
+
+@media screen and (max-width: 599px) {
+  .text {
+    padding: 0;
+  }
+
+  .rechts {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .text {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .rechts {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
